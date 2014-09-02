@@ -34,6 +34,18 @@ class Provider < AeroAPI::Provider
 end
 ```
 
+
+Ej:
+
+  ```ruby
+Operator.providers_names
+Operator.find(1)
+Operator.all
+
+Providers.first
+```
+
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/aero_operator_provider_client/fork )
