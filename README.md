@@ -6,8 +6,10 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'operator_provider_client'
-
+    gem 'operator_provider_client', path: '(*)/operadorPrestador_gem'
+    
+    (*) = path a la gem
+    
 And then execute:
 
     $ bundle
@@ -17,8 +19,20 @@ Or install it yourself as:
     $ gem install operator_provider_client
 
 ## Usage
+  Add in the model:
+  
+ 
+ * Operator.rb
+ ```ruby
+class Operator < AeroAPI::Operator
+end
+```
 
-TODO: Write usage instructions here
+ * Provider.rb
+  ```ruby
+class Provider < AeroAPI::Provider
+end
+```
 
 ## Contributing
 
